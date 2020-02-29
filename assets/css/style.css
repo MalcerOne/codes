@@ -1,11 +1,31 @@
-header {
+.header {
 	border-style: solid;
 	border-width: 1px;
 	margin: 10px;
 	padding: 10px;
-	background-color: gold
+	background-color: #F0655E;
+	position:relative;
 }
 
-.nav-header {
-	
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em 
+}
+
+.nav{
+	position: absolute;
+	top: 10px;
+	left: 100px;
+}
+
+.nav-item {
+	background-color: gold;
+	display: inline;	
 }
