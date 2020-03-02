@@ -78,3 +78,61 @@
 	left: 700px;
 	top: 320px;
 }
+
+.img-block4{
+	position: absolute;
+	left: 20px;
+	top: 180px;
+}
+
+.paragraph2{
+	position: absolute;
+	left: 740px;
+	top: 175px;
+	font-size: 20px;
+}
+
+.paragraph3{
+	position: absolute;
+	left: 740px;
+	top: 225px;
+	font-size: 20px;
+}
+
+.paragraph4{
+	position: absolute;
+	left: 720px;
+	top: 255px;
+	list-style: circle;
+	font-size: 20px;
+}
+
+.paragraph5{
+	position: absolute;
+	left: 740px;
+	top: 375px;
+	font-size: 20px;
+}
+
+.paragraph6{
+	position: absolute;
+	left: 720px;
+	top: 405px;
+	list-style: circle;
+	font-size: 20px;
+}
+
+.paragraph7{
+	position: absolute;
+	left: 740px;
+	top: 470px;
+	font-size: 20px;
+}
+
+.paragraph8{
+	position: absolute;
+	left: 720px;
+	top: 500px;
+	list-style: circle;
+	font-size: 20px;
+}
