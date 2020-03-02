@@ -57,7 +57,24 @@
 }
 
 .nav-item {
-	background-color: gold;
 	display: inline;	
 }
 
+.img-block3{
+	position: absolute;
+	left: -350px;
+	top: 150px;
+}
+
+.title{
+	position: absolute;
+	left: 700px;
+	top: 280px;
+
+}
+
+.paragraph{
+	position: absolute;
+	left: 700px;
+	top: 320px;
+}
