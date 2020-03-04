@@ -20,7 +20,7 @@
 
 .blocktext {
 	position: relative;
-	margin-left: 535px;
+	margin-left: 250px;
 }
 
 .img-block1{
@@ -51,8 +51,8 @@
 
 .nav{
 	position: absolute;
-	top: -8px;
-	left: 100px;
+	top: 15px;
+	left: 200px;
 	bottom: 5px;
 	font-size: 200%;
 }
@@ -63,7 +63,7 @@
 
 .img-block3{
 	position: absolute;
-	left: -350px;
+	left: -100px;
 	top: 150px;
 	border: solid;
 }
