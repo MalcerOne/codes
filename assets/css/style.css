@@ -12,7 +12,11 @@
   align-items: center;
 }
 .logo{
+<<<<<<< HEAD
   margin: 2%;
+=======
+  margin: 5%;
+>>>>>>> 0fe738a501142041d2f1a579cb6854b6de83bd6c
 }
 
 .centralizador {
@@ -78,7 +82,15 @@
 
 .img-block3{
 	position: absolute;
+<<<<<<< HEAD
 	left: -300px;
+=======
+<<<<<<< HEAD
+	left: -150px;
+=======
+	left: -300px;
+>>>>>>> f5a29683842d904ed446b7ca9974d1ca168ab82b
+>>>>>>> 0fe738a501142041d2f1a579cb6854b6de83bd6c
 	top: 150px;
 	border: solid;
 }
