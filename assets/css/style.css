@@ -3,7 +3,7 @@
 	border-width: 1px;
 	margin: 10px auto;
 	padding: 10px;
-	background-color: #F0655E;
+	background-color: #111820;
   font-size: 1rem;
   min-width: 320px;
   max-width: 100%;
@@ -74,7 +74,7 @@
 
 .link{
   text-decoration: none;
-  color: blue;
+  color: white;
 }
 .link .nav-item : hover  {
   color: white;
