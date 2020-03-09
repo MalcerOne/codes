@@ -20,11 +20,8 @@
 
 }
 .logo{
-<<<<<<< HEAD
 	margin: 2%;
-=======
 	margin: 5%;
->>>>>>> 0fe738a501142041d2f1a579cb6854b6de83bd6c
 }
 
 .centralizadortitulo {
@@ -85,6 +82,56 @@
 	justify-content: flex-end;
 }
 
+.blocktext2 {
+	display: flex;
+	justify-content: space-around;
+	max-width: 70rem;
+	min-height: 35rem;
+	padding: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.blocktext2-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 50%;
+	padding: 1rem;
+}
+
+.img-blockcat{
+	width: 90%;
+	height: 90%
+	min-width: 20rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1rem;
+}
+.img-blockpro{
+	width: 50%;
+	min-width: 30rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1rem;
+}
+
+.title{
+	font-family: 'Antic Didone', serif;
+	font-size: 2rem;
+	text-decoration: none;
+	color: #E3B239;
+	min-width: 2000rem;
+
+}
+
+.paragraph{
+	font-family: 'Antic Didone', serif;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: white;
+	padding: 1rem;
+}
+
 .nav{
 	font-size: 200%;
 	width: 100%;
@@ -102,43 +149,7 @@
 	color: white;
 }
 
-.img-block3{
-	position: absolute;
-<<<<<<< HEAD
-	left: -300px;
-=======
-<<<<<<< HEAD
-	left: -150px;
-=======
-	left: -300px;
->>>>>>> f5a29683842d904ed446b7ca9974d1ca168ab82b
->>>>>>> 0fe738a501142041d2f1a579cb6854b6de83bd6c
-	top: 150px;
-	border: solid;
-}
-
-.title{
-	position: absolute;
-	font-family: 'Antic Didone', serif;
-	font-size: 2rem;
-	text-decoration: none;
-	color: #E3B239;
-	left: 760px;
-	top: 280px;
-}
-
-.paragraph{
-	position: absolute;
-	font-family: 'Antic Didone', serif;
-	font-size: 1.5rem;
-	text-decoration: none;
-	color: white;
-	left: 760px;
-	top: 320px;
-}
-
 .img-block4{
-	position: absolute;
 	font-family: 'Antic Didone', serif;
 	font-size: 1.5rem;
 	text-decoration: none;
@@ -148,7 +159,6 @@
 }
 
 .paragraph2{
-	position: absolute;
 	font-family: 'Antic Didone', serif;
 	font-size: 1.5rem;
 	text-decoration: none;
@@ -158,7 +168,6 @@
 }
 
 .paragraph3{
-	position: absolute;
 	font-family: 'Antic Didone', serif;
 	font-size: 1.5rem;
 	text-decoration: none;
@@ -168,7 +177,6 @@
 }
 
 .paragraph4{
-	position: absolute;
 	font-family: 'Antic Didone', serif;
 	font-size: 1.5rem;
 	text-decoration: none;
@@ -179,7 +187,6 @@
 }
 
 .paragraph5{
-	position: absolute;
 	font-family: 'Antic Didone', serif;
 	font-size: 1.5rem;
 	text-decoration: none;
@@ -189,7 +196,6 @@
 }
 
 .paragraph6{
-	position: absolute;
 	font-family: 'Antic Didone', serif;
 	font-size: 1.5rem;
 	text-decoration: none;
@@ -200,7 +206,6 @@
 }
 
 .paragraph7{
-	position: absolute;
 	font-family: 'Antic Didone', serif;
 	font-size: 1.5rem;
 	text-decoration: none;
@@ -210,7 +215,6 @@
 }
 
 .paragraph8{
-	position: absolute;
 	font-family: 'Antic Didone', serif;
 	font-size: 1.5rem;
 	text-decoration: none;
