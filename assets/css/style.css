@@ -4,7 +4,7 @@
 	margin: auto;
 	padding: 0.7rem;
 	background-color: #111820;
-	font-family: 'Antic Didone', serif;
+	font-family: 'PT Mono', monospace;
 	font-size: 1rem;
 	font-weight: bold;
 	min-width: 20rem;
@@ -26,7 +26,7 @@
 
 .centralizadortitulo {
 	text-align: center;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'PT Serif', serif;
 	font-size: 2.5rem;
 	text-decoration: none;
 	color: white;
@@ -36,7 +36,7 @@
 
 .centralizadorlegenda {
 	text-align: center;
-	font-family: 'Antic Didone', serif;
+	font-family: 'PT Mono', monospace;
 	font-size: 1.5rem;
 	text-decoration: none;
 	color: #E3B239;
@@ -116,7 +116,7 @@
 }
 
 .title{
-	font-family: 'Antic Didone', serif;
+	font-family: 'PT Mono', monospace;
 	font-size: 2rem;
 	text-decoration: none;
 	color: #E3B239;
@@ -125,7 +125,7 @@
 }
 
 .paragraph{
-	font-family: 'Antic Didone', serif;
+	font-family: 'PT Mono', monospace;
 	font-size: 1.5rem;
 	text-decoration: none;
 	color: white;
@@ -150,76 +150,70 @@
 }
 
 .img-block4{
-	font-family: 'Antic Didone', serif;
+	font-family: 'PT Mono', monospace;
 	font-size: 1.5rem;
 	text-decoration: none;
-	color: #E3B239;
+	color: white;
 	left: 2rem;
 	top: 15rem;
 }
 
 .paragraph2{
-	font-family: 'Antic Didone', serif;
+	font-family: 'PT Mono', monospace;
 	font-size: 1.5rem;
 	text-decoration: none;
-	color: #E3B239;
-	left: 48rem;
-	top: 15rem	;
+	color: white;
 }
 
 .paragraph3{
-	font-family: 'Antic Didone', serif;
+	font-family: 'PT Mono', monospace;
 	font-size: 1.5rem;
 	text-decoration: none;
-	color: white;
-	left: 48rem;
-	top: 19rem;
+	color: #16BA45;
+	margin-top: 1rem;
 }
 
 .paragraph4{
-	font-family: 'Antic Didone', serif;
+	font-family: 'PT Mono', monospace;
 	font-size: 1.5rem;
 	text-decoration: none;
-	color: #E3B239;
-	left: 49rem;
-	top: 21rem;
+	color: white;
 	list-style: circle;
+	margin-left: 1.5rem;
 }
 
 .paragraph5{
-	font-family: 'Antic Didone', serif;
+	font-family: 'PT Mono', monospace;
 	font-size: 1.5rem;
 	text-decoration: none;
-	color: white;
+	color: #16BA45;
 	left: 48rem;
 	top: 28rem;
+	margin-top: 1rem;
 }
 
 .paragraph6{
-	font-family: 'Antic Didone', serif;
-	font-size: 1.5rem;
-	text-decoration: none;
-	color: #E3B239;
-	left: 49rem;
-	top: 30rem;
-	list-style: circle;
-}
-
-.paragraph7{
-	font-family: 'Antic Didone', serif;
+	font-family: 'PT Mono', monospace;
 	font-size: 1.5rem;
 	text-decoration: none;
 	color: white;
-	left: 48rem;
-	top: 32rem;
+	list-style: circle;
+	margin-left: 1.5rem;
+}
+
+.paragraph7{
+	font-family: 'PT Mono', monospace;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #16BA45;
+	margin-top: 1rem;
 }
 
 .paragraph8{
-	font-family: 'Antic Didone', serif;
+	font-family: 'PT Mono', monospace;
 	font-size: 1.5rem;
 	text-decoration: none;
-	color: #E3B239;
-	left: 49rem;
-	top: 34rem;
+	color: white;
 	list-style: circle;
+	margin-left: 1.5rem;
 }
