@@ -121,6 +121,9 @@
 	min-width: 2000rem;
 
 }
+.title:hover {
+	color:#197c87;
+}
 
 .paragraph{
 	font-family: 'PT Mono', monospace;
@@ -142,6 +145,10 @@
 .link{
 	text-decoration: none;
 	color: white;
+}
+
+.link:hover {
+	color:#197c87;
 }
 
 .img-block4{
