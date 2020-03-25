@@ -229,5 +229,13 @@
     .centralizadortitulo{
         font-size: 1.75rem;
     }
+
+    .menu-image{
+    	height: 2rem;
+    }
+
+    .nav{
+    	display:none;
+    }
     
 }
