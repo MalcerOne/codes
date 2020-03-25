@@ -223,15 +223,23 @@
 @media (max-width: 375px) {
     .header{
         font-size: 0.3rem;
-
+		align-content: space-around;
     }
 
     .centralizadortitulo{
         font-size: 1.75rem;
     }
 
+    .menu_figure{
+    	display: block;
+    }
+
+
     .menu-image{
-    	height: 2rem;
+    	height: 3rem;
+
+
+
     }
 
     .nav{
