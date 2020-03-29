@@ -220,13 +220,32 @@
 	margin-left: 1.5rem;
 }
 
+.menu-figure{
+
+	display: none;
+}
+
 @media (max-width: 375px) {
     .header{
         font-size: 0.3rem;
-
+		justify-content: space-between;
     }
 
     .centralizadortitulo{
         font-size: 1.75rem;
+        display: none;
+    }
+
+    .menu-figure{
+    	display: block;
+    }
+
+    .menu-figure:hover .nav{
+    	display: block;
+
+    }
+    
+    .nav{
+    	display:none;
     }
 }
