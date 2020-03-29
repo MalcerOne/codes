@@ -315,43 +315,50 @@
     .paragraph8{
 		display: flex;
 		font-size: 1rem;
-		text-align: center;
+		text-align:left;
     }
 
     .paragraph2{
 		display: flex;
 		font-size: 1rem;
-		text-align: center;
+		text-align:left;
     }
 
     .paragraph3{
 		display: flex;
 		font-size: 1rem;
-		text-align: center;
+		text-align:left;
     }
 
     .paragraph4{
 		display: flex;
 		font-size: 1rem;
-		text-align: center;
+		text-align:left;
     }
 
     .paragraph5{
 		display: flex;
 		font-size: 1rem;
-		text-align: center;
+		text-align:left;
     }
 
     .paragraph6{
 		display: flex;
 		font-size: 1rem;
-		text-align: center;
+		text-align:left;
     }
 
     .paragraph7{
 		display: flex;
 		font-size: 1rem;
-		text-align: center;
+		text-align:left;
     }
 
+    .blocktext2-2 {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 100%;
+		padding: 1rem;
+	}
 }
