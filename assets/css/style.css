@@ -220,6 +220,11 @@
 	margin-left: 1.5rem;
 }
 
+.menu-figure{
+
+	display: none;
+}
+
 @media (max-width: 375px) {
     .header{
         font-size: 0.3rem;
@@ -230,7 +235,7 @@
         font-size: 1.75rem;
     }
 
-    .menu_figure{
+    .menu-figure{
     	display: block;
     }
 
@@ -241,6 +246,22 @@
 
 
     }
+
+    .menu-image:hover .nav{
+
+    	display: block;
+    }
+
+    .nav{
+
+    	position: absolute;
+  		top: 3rem;
+  		left: 0rem;
+  		width: 100%;
+  		border: 1px solid #00FF00;
+  		background-color: #000000;
+    }
+
 
     .nav{
     	display:none;
