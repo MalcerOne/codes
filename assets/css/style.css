@@ -228,11 +228,7 @@
 @media (max-width: 375px) {
     .header{
         font-size: 0.3rem;
-<<<<<<< HEAD
 		justify-content: space-between;
-=======
-		align-content: space-around;
->>>>>>> b11d669bc5a76516b5d6721c89aa219ca4bf2e92
     }
 
     .centralizadortitulo{
@@ -246,40 +242,9 @@
 
     .menu-figure:hover .nav{
     	display: block;
-
     }
     
     .nav{
     	display:none;
     }
-
-    .menu-figure{
-    	display: block;
-    }
-
-
-    .menu-image{
-    	height: 3rem;
-
-
-
-    }
-
-    .menu-image:hover .nav{
-
-    	display: block;
-    }
-
-    .nav{
-
-    	position: absolute;
-  		border: 1px solid #16BA45;
-  		background-color: #013F64;
-    }
-
-
-    .nav{
-    	display:none;
-    }
-    
 }
