@@ -221,10 +221,6 @@
 	margin-left: 1.5rem;
 }
 
-.menu-figure{
-	display: none;
-}
-
 .titulo-mobile{
 	display: none;
 }
@@ -239,14 +235,6 @@
     .centralizadortitulo{
         font-size: 1.75rem;
         display: none;
-    }
-
-    .menu-figure{
-    	display: block;
-    }
-
-    .menu-figure:hover .nav{
-    	display: block;
     }
     
     .nav{
