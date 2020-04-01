@@ -119,7 +119,7 @@
 	font-size: 2rem;
 	text-decoration: none;
 	color: #E3B239;
-	
+	min-width: 2000rem;
 
 }
 .title:hover {
@@ -131,8 +131,7 @@
 	font-size: 1.5rem;
 	text-decoration: none;
 	color: white;
-	padding-top: 1rem;
-	max-width: 100%;
+	padding: 1rem;
 }
 
 .nav{
@@ -222,6 +221,10 @@
 	margin-left: 1.5rem;
 }
 
+.menu-figure{
+	display: none;
+}
+
 .titulo-mobile{
 	display: none;
 }
@@ -236,6 +239,14 @@
     .centralizadortitulo{
         font-size: 1.75rem;
         display: none;
+    }
+
+    .menu-figure{
+    	display: block;
+    }
+
+    .menu-figure:hover .nav{
+    	display: block;
     }
     
     .nav{
@@ -267,10 +278,6 @@
     	align-content: center;
     }
 
-    .img-blockcat{
-    	width: 5rem;
-    }
-
     .titulo-mobile{
     	display:block;
     	align-items: center;
@@ -287,7 +294,6 @@
     	display: flex;
 		flex-direction: column;
 		text-align: center;
-		max-width: 100%;
     }
 
     .title{
@@ -309,52 +315,43 @@
     .paragraph8{
 		display: flex;
 		font-size: 1rem;
-		text-align:left;
+		text-align: center;
     }
 
     .paragraph2{
 		display: flex;
 		font-size: 1rem;
-		text-align:left;
+		text-align: center;
     }
 
     .paragraph3{
 		display: flex;
 		font-size: 1rem;
-		text-align:left;
+		text-align: center;
     }
 
     .paragraph4{
 		display: flex;
 		font-size: 1rem;
-		text-align:left;
+		text-align: center;
     }
 
     .paragraph5{
 		display: flex;
 		font-size: 1rem;
-		text-align:left;
+		text-align: center;
     }
 
     .paragraph6{
 		display: flex;
 		font-size: 1rem;
-		text-align:left;
+		text-align: center;
     }
 
     .paragraph7{
 		display: flex;
 		font-size: 1rem;
-		text-align:left;
+		text-align: center;
     }
 
-    .blocktext2-2 {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		width: 80%;
-		padding: 1rem;
-		padding-left: 10%;
-
-	}
 }
