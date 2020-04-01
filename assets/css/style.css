@@ -225,6 +225,10 @@
 	display: none;
 }
 
+.menu.html{
+	display: none;
+}
+
 
 @media (max-width: 375px) {
     .header{
@@ -348,5 +352,14 @@
 		align-items: flex-start;
 		width: 100%;
 		padding: 1rem;
+	}
+
+	.btnMenu_open {
+		display: block;
+		background-image: url(./assets/img/menu_sanduiche.jpg);
+		background-repeat: no-repeat;
+		background-position: 0.5rem left;
+		padding: 0.1rem 1rem;
+
 	}
 }
