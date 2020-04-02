@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
       coDesReplace('.centralizadortitulo',context)
       coDesReplace('.nav2', context)
       coDesReplace('.blocktext2', context)
+      coDesReplace('.titulo-mobile', context)
 
   })
 })
