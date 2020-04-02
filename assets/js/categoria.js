@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
       console.log(context)
       coDesReplace('.centralizadortitulo',context)
       coDesReplace('.nav2', context)
+      coDesReplace('.blocktext2', context)
 
   })
 })

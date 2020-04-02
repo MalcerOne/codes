@@ -14,12 +14,13 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log(context)
     coDesReplace('.nav',context)
     context = data["portfolio"][value2]["projetos"][value]
-    coDesReplace('title',context)
+    console.log(context)
     coDesReplace('.centralizadortitulo',context)
     coDesReplace('.paragraph2',context)
     coDesReplace('.paragraph4',context)
     coDesReplace('.paragraph6',context)
     coDesReplace('.paragraph8',context)
+    coDesReplace('.blocktext2',context)
     
   })
 })
