@@ -6,35 +6,36 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
-	<meta charset='utf-8'>
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/categoria.js"></script>
+  <meta charset='utf-8'>
   <meta name="viewport" content="width:width-device, initial-scale=1">
 </head>
 
 <body class="body">
   <header class="header">
    <a href="index.html"><img width="80" height="80" src="./assets/img/logo.png" alt="Ícone de Portfólio"></a>
-    <div class="titulo-mobile">
-      <h1>Projetos de Matemática</h1>
-    </div>
-   <ul class="nav">
-     <li class="nav-item"><a class="link" href="categoria.html">Eletrônica</a></li>
-     <li class="nav-item"><a class="link" href="categoria.html">Matemática</a></li>
-     <li class="nav-item"><a class="link" href="categoria.html">Progmática</a></li>
-     <li class="nav-item"><a class="link" href="categoria.html">Programação</a></li>
-   </ul>
-    <figure class="menu-figure">
-      <a href="#"><img width="60" height="60" src="./assets/img/menu_sanduiche.jpg" alt="Abrir Menu"></a>
-    </figure> 
+   <div class="titulo-mobile">
+    <h1>Projetos de Matemática</h1>
+  </div>
+  <ul class="nav">
+   {{#each portfolio}}
+   <li class="nav-item"><a class="link" href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
+   {{/each}}
+  </ul>
+ <figure class="menu-figure">
+  <a href="#"><img width="60" height="60" src="./assets/img/menu_sanduiche.jpg" alt="Abrir Menu"></a>
+</figure> 
 
- </header>
+</header>
 
- <h1 class="centralizadortitulo">Projetos de Matemática</h1>
+<h1 class="centralizadortitulo">Projetos de {{categoria}}</h1>
 
- <nav class="blocktext2">
-  <a href="projeto.html"><img class="img-blockcat" src="./assets/img/funcao_inversa.jpg" alt="Função Inversa"></a>
+<nav class="blocktext2">
+  <a href="projeto.html"><img class="img-blockcat" src="./assets/img/{{imagem}}" alt="{{categoria}}"></a>
   <div class='blocktext2-2'>
     <h2><a class="title" href="projeto.html">Ampliação de Conteúdo</a></h2>
-    <p class="paragraph">Descrição: Projeto de matemática</p>
+    <p class="paragraph">{{descricao}}</p>
   </div>
 </nav>
 </body>

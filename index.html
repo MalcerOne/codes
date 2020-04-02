@@ -6,40 +6,37 @@
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/index.js"></script>
   <meta charset='utf-8'>
   <meta name="viewport" content="width:width-device, initial-scale=1">
 </head>
 <body class="body">
   <header class="header">
    <a href="index.html"><img width="80" height="80" src="./assets/img/logo.png" alt="Ícone de Portfólio"></a>
-    <div class="titulo-mobile">
-      <h1>Portfólio de projetos  Engenharia Insper</h1>
-    </div>
-   <ul class="nav">
-     <li class="nav-item"><a class="link" href="categoria.html">Eletrônica</a></li>
-     <li class="nav-item"><a class="link" href="categoria.html">Matemática</a></li>
-     <li class="nav-item"><a class="link" href="categoria.html">Progmática</a></li>
-     <li class="nav-item"><a class="link" href="categoria.html">Programação</a></li>
-   </ul>
-    <figure class="menu-figure">
-      <a href="#"><img width="60" height="60" src="./assets/img/menu_sanduiche.jpg" alt="Abrir Menu"></a>
-    </figure> 
+   <div class="titulo-mobile">
+    <h1>Portfólio de projetos Engenharia Insper</h1>
+  </div>
+  <ul class="nav">
+    {{#each portfolio}}
+    <li class="nav-item"><a class="link" href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
+    {{/each}}
+  </ul>  
+  </header>
 
- </header>
+<main>
+ <h1 class="centralizadortitulo">Portfólio de Projetos - Engenharia Insper</h1>
+ <img width="400" height="500" class="displayed" src="./assets/img/foto_estudante.jpg" alt="Foto de Perfil">
+ <h2 class="centralizadorlegenda">Lucas Andrade</h2>
+ <h2 class="centralizadorlegenda">Engenharia Mecânica</h2>
 
- <main>
-   <h1 class="centralizadortitulo">Portfólio de Projetos - Engenharia Insper</h1>
-   <img width="400" height="500" class="displayed" src="./assets/img/foto_estudante.jpg" alt="Foto de Perfil">
-   <h2 class="centralizadorlegenda">Lucas Andrade</h2>
-   <h2 class="centralizadorlegenda">Engenharia Mecânica</h2>
-
-   <h2 class="centralizadortitulo">Projetos:</h2>
-   <nav class="blocktext" >
-    <a href="categoria.html"><img width="400" height="300" class='img-block1' src="./assets/img/eletronica_icone.jpg" alt="Ícone de Eletrôncia"></a>
-    <a href="categoria.html"><img width="400" height="300" class='img-block1-1' src="./assets/img/matematica_icone.jpg" alt="Ícone de Matemática"></a>
-    <a href="categoria.html"><img width="400" height="300" class='img-block2' src="./assets/img/progmatica_icone.jpg" alt="Ícone de Porgramação e Matemática"></a>
-    <a href="categoria.html"><img width="400" height="300" class='img-block2-2' src="./assets/img/programacao_icone.jpg" alt="Foto de Perfil"></a>
-  </nav>
+ <h2 class="centralizadortitulo">Projetos:</h2>
+ <nav class="blocktext" >
+  <a href="categoria.html"><img width="400" height="300" class='img-block1' src="./assets/img/eletronica_icone.jpg" alt="Ícone de Eletrôncia"></a>
+  <a href="categoria.html"><img width="400" height="300" class='img-block1-1' src="./assets/img/matematica_icone.jpg" alt="Ícone de Matemática"></a>
+  <a href="categoria.html"><img width="400" height="300" class='img-block2' src="./assets/img/progmatica_icone.jpg" alt="Ícone de Porgramação e Matemática"></a>
+  <a href="categoria.html"><img width="400" height="300" class='img-block2-2' src="./assets/img/programacao_icone.jpg" alt="Foto de Perfil"></a>
+</nav>
 </main>
 </body>
 </html>
