@@ -25,31 +25,30 @@
  </ul>
 </header>
 
-<h1 class="centralizadortitulo">Ampliação de Conteúdo</h1>
+{{#each titulo}}
+<h1 class="centralizadortitulo">{{this.titulo}}</h1>
 <nav class='blocktext2'>
  <img class="img-blockpro" src="./assets/img/derivada.jpg" alt="Derivada">
  <div class="blocktext2-2">
-   <p class="paragraph2">Descrição: Apresentação sobre o conceito de função inversa</p>
+   <p class="paragraph2">{{this.descricao}}</p>
 
    <p class="paragraph3">Equipe:</p>
    <ul class="paragraph4">
-     <li>Barbara</li>
-     <li>Lucas</li>
-     <li>Ana</li>
-     <li>Laura</li>
+     <li>{{this.equipe}}</li>
    </ul>
 
    <p class="paragraph5">Materiais:</p>
    <ul class="paragraph6">
-     <li>Power Point</li>
+     <li>{{this.materiais}}</li>
    </ul>
 
    <p class="paragraph7">Salas:</p>
    <ul class="paragraph8">
-    <li>Sala regular de aula</li>
+    <li>{{this.salas}}</li>
   </ul>
 </div>
 </nav>
+{{/each}}
 
 </body>
 </html>

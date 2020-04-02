@@ -15,7 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.nav',context)
     context = data["portfolio"][value2]["projetos"][value]
     coDesReplace('title',context)
-    coDesReplace('.descricao',context)
+    coDesReplace('.centralizadortitulo',context)
+    coDesReplace('.paragraph2',context)
+    coDesReplace('.paragraph4',context)
+    coDesReplace('.paragraph6',context)
+    coDesReplace('.paragraph8',context)
     
   })
 })
