@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		context = data
 		console.log(context)
 		coDesReplace('.nav', context)
+		coDesReplace('.blocktext', context)
 	})
    	
 })
