@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>Matemática</title>
+	<title>Categoria</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap" rel="stylesheet">
@@ -16,25 +16,26 @@
   <header class="header">
    <a href="index.html"><img width="80" height="80" src="./assets/img/logo.png" alt="Ícone de Portfólio"></a>
    <div class="titulo-mobile">
-    <h1>Projetos de Matemática</h1>
+    <h1>Projetos de {{full_categoria}}</h1>
   </div>
   <ul class="nav">
-   {{#each portfolio}}
-   <li class="nav-item"><a class="link" href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
-   {{/each}}
-  </ul>
- <figure class="menu-figure">
-  <a href="#"><img width="60" height="60" src="./assets/img/menu_sanduiche.jpg" alt="Abrir Menu"></a>
-</figure> 
+    {{#each portfolio}}
+    <li class="nav-item"><a class="link" href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
+    {{/each}}
+  </ul>  
+  </header>
 
-</header>
 
-<h1 class="centralizadortitulo">Projetos de {{categoria}}</h1>
+<h1 class="centralizadortitulo">Projetos de {{this.categoria}}</h1>
 
 <nav class="blocktext2">
   <a href="projeto.html"><img class="img-blockcat" src="./assets/img/{{imagem}}" alt="{{categoria}}"></a>
   <div class='blocktext2-2'>
-    <h2><a class="title" href="projeto.html">Ampliação de Conteúdo</a></h2>
+    <ul class="nav">
+    {{#each this.categoria}}
+    <li class=nav-item><a class="title" href="categoria.html?key={{@key}}">{{this.projetos}}</a></li>
+    {{/each}}
+  </ul> 
     <p class="paragraph">{{descricao}}</p>
   </div>
 </nav>
