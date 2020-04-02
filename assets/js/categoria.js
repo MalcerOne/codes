@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
       context = data['portfolio'][value]
       console.log(context)
       coDesReplace('.centralizadortitulo',context)
-      coDesReplace('.title',context)
+      coDesReplace('.nav2', context)
 
   })
 })

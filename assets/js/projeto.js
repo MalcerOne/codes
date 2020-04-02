@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
     context = data
     console.log(context)
     coDesReplace('.nav',context)
-    context = data["biblioteca"][value2]["livros"][value]
+    context = data["portfolio"][value2]["projetos"][value]
     coDesReplace('title',context)
-    coDesReplace('.description',context)
+    coDesReplace('.descricao',context)
     
   })
 })

@@ -54,9 +54,9 @@
 	justify-content: space-around;
 	flex-wrap: wrap;
 	max-width: 50.25rem;
-	padding: 5rem;
-	margin-left: center;
-	margin-right: 6.4rem;
+	padding: 3rem;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
@@ -66,8 +66,8 @@
 }
 
 .img-block1-1{
-	align-self: flex-start;
-	justify-content: flex-end;
+	align-content: center;
+	
 }
 
 .img-block2{
@@ -92,9 +92,10 @@
 .blocktext2-2 {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	justify-content: space-between;
 	width: 50%;
 	padding: 1rem;
+	list-style: circle;
 }
 
 .img-blockcat{
@@ -142,6 +143,16 @@
 	align-items: center; 
 	flex-direction: row;
 	justify-content: space-around;
+}
+
+.nav2{
+	font-size: 200%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	list-style: circle;
+	margin-left: -7rem;
 }
 
 .link{
