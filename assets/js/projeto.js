@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.paragraph6',context)
     coDesReplace('.paragraph8',context)
     coDesReplace('.blocktext2',context)
-    coDesReplace('.text-mobile',context)
+    coDesReplace('.titulo-mobile',context)
     
   })
 })

@@ -86,8 +86,7 @@
 	max-width: 70rem;
 	min-height: 35rem;
 	padding: 1rem;
-	margin-left:35rem;
-	margin-right: auto;
+	margin: auto;
 }
 .blocktext2-2 {
 	display: flex;
@@ -307,6 +306,7 @@
 		flex-direction: column;
 		text-align: center;
 		margin: 0rem;
+		max-width: 100%;
 		justify-content: space-between;
     }
 
@@ -332,6 +332,7 @@
 		display: flex;
 		font-size: 1rem;
 		text-align: left;
+		max-width: 100%;
     }
 
     .paragraph2{
@@ -369,6 +370,7 @@
 		display: flex;
 		font-size: 1rem;
 		text-align: center;
+		max-width: 100%;
     }
 
     .nav2{
@@ -382,5 +384,7 @@
 
     .blocktext2-2{
     	width: 100%;
+    	padding: 0rem;
+    	margin: 0rem;
     }
 }
