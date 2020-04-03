@@ -242,149 +242,149 @@
 
 
 @media (max-width: 375px) {
-    .header{
-        font-size: 0.3rem;
-		justify-content: space-between;
-    }
+  .header{
+    font-size: 0.3rem;
+    justify-content: space-between;
+  }
 
-    .centralizadortitulo{
-        font-size: 1.75rem;
-        display: none;
-    }
+  .centralizadortitulo{
+    font-size: 1.75rem;
+    display: none;
+  }
 
-    .menu-figure{
-    	display: block;
-    }
+  .menu-figure{
+   display: block;
+ }
 
-    .menu-figure:hover .nav{
-    	display: block;
-    }
-    
-    .nav{
-    	display:none;
-    }
+ .menu-figure:hover .nav{
+   display: block;
+ }
+ 
+ .nav{
+   display:none;
+ }
 
-    .displayed{
-    	margin-top: auto;
-    	width: 20rem;
-    }
+ .displayed{
+   margin-top: auto;
+   width: 20rem;
+ }
 
-    .img-block2{
-    	width: 20rem;
-    	align-content: center;
-    }
+ .img-block2{
+   width: 20rem;
+   align-content: center;
+ }
 
-    .img-block1{
-    	width: 20rem;
-    	align-content: center;
-    }
+ .img-block1{
+   width: 20rem;
+   align-content: center;
+ }
 
-    .img-block1-1{
-    	width: 20rem;
-    	align-content: center;
-    }
+ .img-block1-1{
+   width: 20rem;
+   align-content: center;
+ }
 
-    .img-block2-2{
-    	width: 20rem;
-    	align-content: center;
-    }
+ .img-block2-2{
+   width: 20rem;
+   align-content: center;
+ }
 
-    .titulo-mobile{
-    	display:block;
-    	align-items: center;
-    	text-align: center;
-		font-family: 'PT Serif', serif;
-		font-size: 1.1rem;
-		text-decoration: none;
-		color: white;
-		font-weight: bold;
-		padding:5%;
-    }
+ .titulo-mobile{
+   display:block;
+   align-items: center;
+   text-align: center;
+   font-family: 'PT Serif', serif;
+   font-size: 1.1rem;
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   padding:5%;
+ }
 
-    .blocktext2{
-    	display: flex;
-		flex-direction: column;
-		text-align: center;
-		margin: 0rem;
-		max-width: 100%;
-		justify-content: space-between;
-    }
+ .blocktext2{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   margin: 0rem;
+   max-width: 100%;
+   justify-content: space-between;
+ }
 
-    .title{
-    	display: flex;
-    	font-size: 1.5rem;
-    	padding-top: 1rem;
-    	text-align: left;
-    }
+ .title{
+   display: flex;
+   font-size: 1.5rem;
+   padding-top: 1rem;
+   text-align: left;
+ }
 
-    .paragraph{
-		display: flex;
-		font-size: 1rem;
-		text-align: center;
-    }
+ .paragraph{
+  display: flex;
+  font-size: 1rem;
+  text-align: center;
+}
 
-    .img-blockpro{
-    	min-width: 90%;
-    	max-height: 30rem;
-    }
+.img-blockpro{
+ min-width: 90%;
+ max-height: 30rem;
+}
 
-    .paragraph8{
-		display: flex;
-		font-size: 1rem;
-		text-align: left;
-		max-width: 100%;
-    }
+.paragraph8{
+  display: flex;
+  font-size: 1rem;
+  text-align: left;
+  max-width: 100%;
+}
 
-    .paragraph2{
-		display: flex;
-		font-size: 1rem;
-		text-align: left;
-    }
+.paragraph2{
+  display: flex;
+  font-size: 1rem;
+  text-align: left;
+}
 
-    .paragraph3{
-		display: flex;
-		font-size: 1rem;
-		text-align: center;
-    }
+.paragraph3{
+  display: flex;
+  font-size: 1rem;
+  text-align: center;
+}
 
-    .paragraph4{
-		display: flex;
-		font-size: 1rem;
-		text-align: left;
-		flex-direction: column;
-    }
+.paragraph4{
+  display: flex;
+  font-size: 1rem;
+  text-align: left;
+  flex-direction: column;
+}
 
-    .paragraph5{
-		display: flex;
-		font-size: 1rem;
-		text-align: center;
-    }
+.paragraph5{
+  display: flex;
+  font-size: 1rem;
+  text-align: center;
+}
 
-    .paragraph6{
-		display: flex;
-		font-size: 1rem;
-		text-align: left;
-    }
+.paragraph6{
+  display: flex;
+  font-size: 1rem;
+  text-align: left;
+}
 
-    .paragraph7{
-		display: flex;
-		font-size: 1rem;
-		text-align: center;
-		max-width: 100%;
-    }
+.paragraph7{
+  display: flex;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 100%;
+}
 
-    .nav2{
-    	font-size: 200%;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		list-style: circle;
-		margin: 0rem;
-    }
+.nav2{
+ font-size: 200%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ list-style: circle;
+ margin: 0rem;
+}
 
-    .blocktext2-2{
-    	width: 100%;
-    	padding: 0rem;
-    	margin: 0rem;
-    }
+.blocktext2-2{
+ width: 100%;
+ padding: 0rem;
+ margin: 0rem;
+}
 }
